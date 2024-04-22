@@ -1,0 +1,17 @@
+minecraft {
+	font-family: Monocraft;
+}
+
+.sezione {
+	flex: 1; 
+	padding: 5%; 
+	display: flex; 
+	align-items: center;
+}
+
+.immagine-impegnativa {
+	width: 15%; 
+	height: auto; 
+	border-radius: 20px; 
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
