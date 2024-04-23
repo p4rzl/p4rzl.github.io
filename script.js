@@ -7,3 +7,17 @@ window.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
 });
+
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Control') {
+        var pedroImage = document.getElementById('pedro');
+        pedroImage.src = '/img/pedro.gif';
+    }
+});
+
+document.addEventListener('keyup', function(e) {
+    if (e.key === 'Control') {
+        var pedroImage = document.getElementById('pedro');
+        pedroImage.src = 'img/logo.jpg';
+    }
+});
