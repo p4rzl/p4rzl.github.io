@@ -8,13 +8,15 @@ document.addEventListener('contextmenu', function(e) {
     e.preventDefault();
 });
 
+var audio; // Declare the audio variable outside of the event listeners
+
 document.addEventListener('keydown', function(e) {
     if (e.key === 'Control') {
         var pedroImage = document.getElementById('pedro');
         pedroImage.src = '/img/pedro.gif';
 
         // Play music
-        var audio = new Audio('audio/Pedro.mp3');
+        audio = new Audio('audio/Pedro.mp3');
         audio.play();
     }
 });
@@ -25,7 +27,7 @@ document.addEventListener('keyup', function(e) {
         pedroImage.src = 'img/logo.jpg';
 
         // Stop music
-        audio.pause();
+        audio.pause(); // Pause the audio
         audio.currentTime = 0;
     }
 });
