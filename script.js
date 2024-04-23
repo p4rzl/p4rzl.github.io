@@ -12,6 +12,10 @@ document.addEventListener('keydown', function(e) {
     if (e.key === 'Control') {
         var pedroImage = document.getElementById('pedro');
         pedroImage.src = '/img/pedro.gif';
+
+        // Play music
+        var audio = new Audio('audio/Pedro.mp3');
+        audio.play();
     }
 });
 
@@ -19,5 +23,9 @@ document.addEventListener('keyup', function(e) {
     if (e.key === 'Control') {
         var pedroImage = document.getElementById('pedro');
         pedroImage.src = 'img/logo.jpg';
+
+        // Stop music
+        audio.pause();
+        audio.currentTime = 0;
     }
 });
