@@ -3,3 +3,7 @@ window.addEventListener('DOMContentLoaded', function() {
         window.location.href = "https://p4rzl.github.io/ParziWEB-Mobile/";
     }
 });
+
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+});
