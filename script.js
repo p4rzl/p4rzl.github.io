@@ -31,3 +31,19 @@ document.addEventListener('keyup', function(e) {
         audio.currentTime = 0;
     }
 });
+
+var clickCount = 0;
+var image = document.getElementById('gatto');
+
+image.addEventListener('click', function() {
+    clickCount++;
+    Miao = new Audio('audio/miao.mp3');
+    if (clickCount === 7) {
+        image.src = 'img/gatto.jpeg';
+        Miao.play();
+    } else if (clickCount === 14) {
+        image.src = 'img/io.jpeg';
+        Miao.pause();
+        clickCount = 0;
+    }
+});
