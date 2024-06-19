@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background:#242424;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .profile {
+    text-align: center;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .profile-name {
+    font-size: 36px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .profile-description {
+    font-size: 24px;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  .social {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .social-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  .discord {
+    background: rgb(223,227,26);
+    background: linear-gradient(90deg, rgba(223,227,26,1) 0%, rgba(255,255,255,1) 100%);
+  }
+  
+  .tiktok {
+    background-color: #69c9d0;
+  }
+  
+  .instagram {
+    background-color: #c149cc;
+  }
+  
+  .github {
+    background-color: white;
+  }
+
+  .telegram {
+    background-color: #2ca5e0;
+  }
+
+  .gmail {
+    background-color: #e02c2c;
+  }
+  
+  .steam {
+    background-color: #171a21;
+  }
+
+  .social-icon {
+    height: 20px;
+    margin-right: 10px;
+    width: 20px;
+  }
+  
+  .copywrite {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #fff;
+  }
+  
