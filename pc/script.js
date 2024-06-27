@@ -43,6 +43,7 @@ document.addEventListener('keyup', function(e) {
 image.addEventListener('click', function() {
     clickCount++;
     Miao = new Audio('audio/miao.mp3');
+    Dio = new Audio('audio/porco.mp3');
     if (clickCount === 7) {
         firsttime_2 = true;
         discoverEasterEgg();
@@ -50,7 +51,7 @@ image.addEventListener('click', function() {
         Miao.play();
     } else if (clickCount === 14) {
         image.src = 'img/io.jpeg';
-        Miao.pause();
+        Dio.play();
         clickCount = 0;
     }
 });
