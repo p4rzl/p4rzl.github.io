@@ -1,5 +1,6 @@
 minecraft {
 	font-family: Monocraft;
+	src: url('Monocraft.ttf');
 }
 
 .sezione {
