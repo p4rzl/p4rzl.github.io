@@ -381,7 +381,7 @@ body {
 
 .project-media-embed {
   position: relative;
-  padding-top: 150px;
+  padding-top: 220px;
 }
 
 .project-media-embed iframe {
@@ -457,7 +457,7 @@ body {
 }
 
 .community-image {
-  height: 160px;
+  height: 200px;
   overflow: hidden;
 }
 
@@ -542,6 +542,7 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: var(--apple-background-elevated);
+  color: var(--apple-text);
   transition: var(--transition-fast);
 }
 
@@ -553,12 +554,13 @@ body {
 .social-link svg {
   width: 20px;
   height: 20px;
-  fill: var(--apple-text);
+  display: block;
+  fill: currentColor;
   transition: var(--transition-fast);
 }
 
 .social-link:hover svg {
-  fill: #ffffff;
+  fill: currentColor;
 }
 
 .copyright {
